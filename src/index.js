@@ -1,3 +1,5 @@
+funtion updateTime() {
+
 //Paris
 let parisElement = document.querySelector("#paris");
 let parisTime = document.querySelector(".time");
@@ -5,7 +7,6 @@ let parisDate = document.querySelector(".date");
 let parisDateAndTime = moment().tz("Europe/Paris");
 parisTime.innerHTML = parisDateAndTime.format("h:mm:ss [<small>]A[</small>]");
 parisDate.innerHTML = parisDateAndTime.format("MMMM Do YYYY");
-
 //Johannesburg
 let johannesburgElement = document.querySelector("#johannesburg");
 let johannesburgTime = document.querySelector(".time");
@@ -25,3 +26,7 @@ singaporeTime.innerHTML = singaporeDateAndTime.format(
   "h:mm:ss [<small>]A[</small>]"
 );
 singaporeDate.innerHTML = singaporeDateAndTime.format("MMMM Do YYYY");
+
+}
+updateTime();
+setInterval(updateTime, 1000);
