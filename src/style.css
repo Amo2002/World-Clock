@@ -61,8 +61,6 @@ body {
     rgba(255, 255, 255, 0.31) 1.2%,
     rgb(36, 212, 219) 100.2%
   );
-  background-position: sticky;
   font-family: sans-serif;
-  background-repeat: no-repeat;
-  background-size: contain;
+  
 }
