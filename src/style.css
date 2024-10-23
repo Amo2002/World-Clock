@@ -9,10 +9,16 @@ h1 {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(234, 249, 249, 0.67) 0.1%,
+    rgba(239, 249, 251, 0.63) 90.1%
+  );
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
+  position: sticky;
+  text-decoration: coral;
 }
 select {
   padding: 10px;
@@ -50,6 +56,13 @@ h2 {
   line-height: 48px;
 }
 body {
-  background-image: url(https://www.rawpixel.com/image/5914836/image-background-cloud-aesthetic)
+  background: radial-gradient(
+    401px at 50.6% -0.3%,
+    rgba(255, 255, 255, 0.31) 1.2%,
+    rgb(36, 212, 219) 100.2%
+  );
+  background-position: sticky;
   font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
